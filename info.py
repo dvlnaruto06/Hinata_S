@@ -13,45 +13,45 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = environ.get('API_ID', "#####################")
-API_HASH = environ.get('API_HASH', "#############")
-BOT_TOKEN = environ.get('BOT_TOKEN', "##############################")
+API_ID = environ.get('API_ID', "25059287")
+API_HASH = environ.get('API_HASH', "5e7701953107a273724b07f2beaf8f17")
+BOT_TOKEN = environ.get('BOT_TOKEN', "")
 TIMEZONE = environ.get("TIMEZONE", "Asia/Kolkata")
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = is_enabled((environ.get('USE_CAPTION_FILTER', 'True')), True)
 
-PICS = (environ.get('PICS', 'https://i2f9m2t2.rocketcdn.me/wp-content/uploads/2014/04/shutterstock_175386392.jpg')).split()
-NOR_IMG = environ.get("NOR_IMG", "https://i2f9m2t2.rocketcdn.me/wp-content/uploads/2014/04/shutterstock_175386392.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://i2f9m2t2.rocketcdn.me/wp-content/uploads/2014/04/shutterstock_175386392.jpg")
-SPELL_IMG = environ.get("SPELL_IMG", "https://i2f9m2t2.rocketcdn.me/wp-content/uploads/2014/04/shutterstock_175386392.jpg")
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/74f4c5747cbe37940743f.jpg'))
-CODE = (environ.get('CODE', 'https://graph.org/file/74f4c5747cbe37940743f.jpg')) # Scanner Code image 
+PICS = (environ.get('PICS', 'https://graph.org/file/48379720ccd6da847ffe4-fd680579885a3b98e4.jpg https://graph.org/file/f4145175911a000a49216-a7be092ca4bc18a0a8.jpg')).split()
+NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/48379720ccd6da847ffe4-fd680579885a3b98e4.jpg")
+MELCOW_VID = environ.get("MELCOW_VID", "https://graph.org/file/f4145175911a000a49216-a7be092ca4bc18a0a8.jpg")
+SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/48379720ccd6da847ffe4-fd680579885a3b98e4.jpg")
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/0d457d51894caf99aec17-d03d5298ef0be42919.jpg'))
+CODE = (environ.get('CODE', 'https://graph.org/file/0d457d51894caf99aec17-d03d5298ef0be42919.jpg')) # Scanner Code image 
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '###############').split()]
-OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "##############") # widout 👉 @
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-###################').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1886258592 6964203412').split()]
+OWNER_USER_NAME = environ.get("OWNER_USER_NAME", "disscus_moviehub4u") # widout 👉 @
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002153653982 -1002627121670').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1886258592 6964203412').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '#################')
-auth_grp = environ.get('AUTH_GROUP')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002282783745')
+auth_grp = environ.get('-1002421794752')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID')
+support_chat_id = environ.get('-1002517228726')
 
 #reporting...
 TOP_SEARCH = is_enabled((environ.get('TOP_SEARCH', "True")), False)
-reqst_channel = environ.get('REQST_CHANNEL_ID', "-###################")
+reqst_channel = environ.get('REQST_CHANNEL_ID', "-1002655119999")
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-GRP_REPORT_CHANNEL = int(environ.get('GRP_REPORT_CHANNEL', "-####################"))
+GRP_REPORT_CHANNEL = int(environ.get('GRP_REPORT_CHANNEL', "0"))
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 NO_RESULTS_MSG = is_enabled((environ.get("NO_RESULTS_MSG", 'True')), False)
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "##############################ue&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "#####################")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', "#####################")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Narutoautofilter:the_bad_devil_06@cluster0.glzywkd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', "Hinata ")
 
 #refer time, or user count
 REFERAL_USER_TIME = int(environ.get('REFERAL_USER_TIME', "2592000")) # set in seconds | already seted 1 month premium
@@ -61,11 +61,11 @@ INVITED_USER_TRAIL = int(environ.get('INVITED_USER_TRAIL', "3600")) #set in seco
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'gooo.aslink.in'))
 STREAM_API = (environ.get('STREAM_API', 'd9864e64f4198e5a2e2b30d00d851bd9b405e3e5'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/ThappyHour'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://t.me/moviehub4u_update'))
 STREAM_LINK_MODE = is_enabled((environ.get('STREAM_LINK_MODE', "True")), False)
 
 #premium Users Satuts
-premium = environ.get('PREMIUM_LOGS', '-#################')
+premium = environ.get('PREMIUM_LOGS', '-1002596920866')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
 
 #files link shortnet
@@ -83,11 +83,11 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "8")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/ThappyHour')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/The_Happy_Hours')
-MSG_ALRT = environ.get('MSG_ALRT', 'Welcome To The Happy Hour 🥂')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "###############"))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Thappyhour')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/movie_group_bot_0')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/movie_group_bot_0')
+MSG_ALRT = environ.get('MSG_ALRT', 'Welcome To The Naruto Hour 🥂')
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1002583655280"))
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'disscus_moviehub4u')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
@@ -99,7 +99,7 @@ PM_FILTER = is_enabled((environ.get('PM_FILTER', "True")), True)
 
 #################
 
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/ThappyHour')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/moviehub4u_update')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -115,7 +115,7 @@ PROTECT_CONTENT = is_enabled((environ.get('PROTECT_CONTENT', "False")), False)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "True")), True)
 
 # Streaming
-BIN_CHANNEL = environ.get("BIN_CHANNEL", "-#############")
+BIN_CHANNEL = environ.get("BIN_CHANNEL", "-1002635477308")
 if len(BIN_CHANNEL) == 0:
     print('BIN_CHANNEL is missing, exiting now')
     exit()
