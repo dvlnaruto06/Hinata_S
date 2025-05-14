@@ -30,7 +30,7 @@ async def start(client, message):
     try:
         if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
             buttons = [[
-                        InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                        InlineKeyboardButton('★ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ★', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                     ],[
                         InlineKeyboardButton('🍁 ʜᴏᴡ ᴛᴏ ᴜꜱᴇ 🍁', url="https://t.me/{temp.U_NAME}?start=help")
                       ]]
@@ -65,11 +65,11 @@ async def start(client, message):
             await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention, temp.B_NAME))
         if len(message.command) != 2:
             buttons = [[
-                        InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
+                        InlineKeyboardButton('★ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ★', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                     ],[
                         InlineKeyboardButton('📚 ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK),
                         InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url=GRP_LNK),
-                        InlineKeyboardButton('🌈 ᴄʜᴀɴɴᴇʟ', url=f'http://t.me/The_Happy_Hour_Hindi')
+                        InlineKeyboardButton('🌈 ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/moviehub4u_06')
                     ],[
                         InlineKeyboardButton('🏕️ ᴀʙᴏᴜᴛ', callback_data='about'),
                         InlineKeyboardButton('🍾 ᴄᴏᴍᴍᴀɴᴅꜱ', callback_data='seeplans'),
@@ -113,8 +113,8 @@ async def start(client, message):
             #     logger.error("Mᴀᴋᴇ sᴜʀᴇ Bᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ Fᴏʀᴄᴇsᴜʙ ᴄʜᴀɴɴᴇʟ")
             #     return
             btn = [[
-                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 1", url=f't.me/The_Happy_Hour_Hindi'),
-                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 2", url=f't.me/The_Happy_Hours')
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 1", url=f't.me/moviehub4u_update'),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 2", url=f't.me/moviehub4u_06')
               ]]
     
             if message.command[1] != "subscribe":
@@ -137,7 +137,7 @@ async def start(client, message):
                     ],[
                         InlineKeyboardButton('📚 ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK),
                         InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url=GRP_LNK),
-                        InlineKeyboardButton('🌈 ᴄʜᴀɴɴᴇʟ', url=f'http://t.me/The_Happy_Hour_Hindi')
+                        InlineKeyboardButton('🌈 ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/moviehub4u_06')
                     ],[
                         InlineKeyboardButton('🏕️ ᴀʙᴏᴜᴛ', callback_data='about'),
                         InlineKeyboardButton('🍾 ᴄᴏᴍᴍᴀɴᴅꜱ', callback_data='seeplans'),
@@ -176,7 +176,7 @@ async def start(client, message):
             return
         if len(message.command) == 2 and message.command[1] in ["premium"]:
             buttons = [[
-                        InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', url=f"https://t.me/Master_Jiraya_Bot")
+                        InlineKeyboardButton('📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ', url=f"https://t.me/dvl_naruto_06")
                       ],[
                         InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
                       ]]
@@ -207,7 +207,7 @@ async def start(client, message):
             db2.add_user(message.from_user.id)
             fromuse = db2.get_refer_points(user_id) + 10
             db2.add_refer_points(user_id, fromuse)
-            await message.reply_text(f"<b>My Name Is Minato⚡.\n\nI am provide Movie & Series 🥲, Just Send Movie Name & Get in Two Seconds 🌿.\n\ninvited by {uss.mention}</b>")
+            await message.reply_text(f"<b>My Name Is Hinata 🫠.\n\nI am provide Movie & Series 🥲, Just Send Movie Name & Get in Two Seconds 🌿.\n\ninvited by {uss.mention}</b>")
             await client.send_message(user_id, f"<b>Congratulations 🥳 You won 10 Referral point because You Invited {message.from_user.mention}</b>") 
             if fromuse == USER_POINT:
                 await db.give_referal(user_id)
