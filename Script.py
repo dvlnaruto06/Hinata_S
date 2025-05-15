@@ -1,10 +1,10 @@
 class script(object):
     START_TXT = """<b><blockquote>
-Mʏ Nᴀᴍᴇ Is #Minato, I Cᴀɴ Pʀᴏᴠɪᴅᴇ 
-<a href='https://t.me/The_Happy_Hour_Hindi'>Mᴏᴠɪᴇs</a>, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ <a href='https://t.me/ThappyHour'>Yᴏᴜʀ Gʀᴏᴜᴘ
+Mʏ Nᴀᴍᴇ Is #Hinata 🫠, I Cᴀɴ Pʀᴏᴠɪᴅᴇ 
+<a href='https://t.me/moviehub4u_update'>Update Channel</a>, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ <a href='https://t.me/movie_group_bot_0'>Yᴏᴜʀ Gʀᴏᴜᴘ
 </a> Aɴᴅ Eɴᴊᴏʏ.
 
-ᴅᴇᴠʟᴏᴘᴇᴅ ʙʏ : <a href=https://t.me/The_Happy_Hours>The Happy Hour</a></blockquote></b>"""
+ᴅᴇᴠʟᴏᴘᴇᴅ ʙʏ : <a href=https://t.me/dvl_naruto_06>Ɲ 么 ʀ ᴜ Ƭ͢ ᴏ</a></blockquote></b>"""
     
     HELP_TXT = """<b>ʜᴇʏ {},
 ᴡᴇ ʜᴀᴠᴇ ᴅᴇᴠɪᴅᴇᴅ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅꜱ ꜰᴏʀ ɢʀᴏᴜᴘ ᴏᴡɴᴇʀꜱ ᴀɴᴅ ʙᴏᴛ ᴜꜱᴇʀꜱ.</b>"""
