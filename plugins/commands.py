@@ -67,23 +67,23 @@ async def start(client, message):
             buttons = [[
                         InlineKeyboardButton('★ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ★', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton('📚 ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK),
-                        InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url=GRP_LNK),
-                        InlineKeyboardButton('🌈 ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/moviehub4u_06')
+                        InlineKeyboardButton('🤝 ʙᴀᴄᴋᴜᴘ ⚡', url=CHNL_LNK),
+                        InlineKeyboardButton('🌀 ɢʀᴏᴜᴘ 🌀', url=GRP_LNK),
+                        InlineKeyboardButton('📛 ᴄʜᴀɴɴᴇʟ 📛', url=f'https://t.me/moviehub4u_06')
                     ],[
-                        InlineKeyboardButton('🏕️ ᴀʙᴏᴜᴛ', callback_data='about'),
-                        InlineKeyboardButton('🍾 ᴄᴏᴍᴍᴀɴᴅꜱ', callback_data='seeplans'),
-                        InlineKeyboardButton('🍁 ꜱᴛᴀᴛꜱ', callback_data='stats')
+                        InlineKeyboardButton('🙋 ᴀʙᴏᴜᴛ 🙋', callback_data='about'),
+                        InlineKeyboardButton('🤖 ᴄᴏᴍᴍᴀɴᴅꜱ 🤖', callback_data='seeplans'),
+                        InlineKeyboardButton('🥱 ꜱᴛᴀᴛꜱ 🥱', callback_data='stats')
                     ],[
-                        InlineKeyboardButton('🌹 ʀᴇғғᴇʀ 🌹', callback_data='reffer')
+                        InlineKeyboardButton('❤️‍🔥 ʀᴇғғᴇʀ ❤️‍🔥', callback_data='reffer')
                         ]]
             if IS_VERIFY or IS_SHORTLINK is True:
                 buttons.append([
-                    InlineKeyboardButton('🏡 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 🏡', callback_data='seeplans')
+                    InlineKeyboardButton('🌟 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 🌟', callback_data='seeplans')
                 ])
             if TOP_SEARCH is True:
                 buttons.append([
-                    InlineKeyboardButton("🎁 ᴍᴏᴠɪᴇ sᴜɢɢᴇsᴛɪᴏɴ's 🎁", callback_data='movie_suggestion')
+                    InlineKeyboardButton("🔥 ᴍᴏᴠɪᴇ sᴜɢɢᴇsᴛɪᴏɴ's 🔥", callback_data='movie_suggestion')
                 ])
             reply_markup = InlineKeyboardMarkup(buttons)
             current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -135,23 +135,23 @@ async def start(client, message):
             buttons = [[
                         InlineKeyboardButton('☆ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ☆', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                     ],[
-                        InlineKeyboardButton('📚 ʙᴀᴄᴋᴜᴘ', url=CHNL_LNK),
-                        InlineKeyboardButton('🌿 ɢʀᴏᴜᴘ', url=GRP_LNK),
-                        InlineKeyboardButton('🌈 ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/moviehub4u_06')
+                        InlineKeyboardButton('🤝 ʙᴀᴄᴋᴜᴘ ⚡', url=CHNL_LNK),
+                        InlineKeyboardButton('🌀 ɢʀᴏᴜᴘ 🌀', url=GRP_LNK),
+                        InlineKeyboardButton('📛 ᴄʜᴀɴɴᴇʟ 📛', url=f'https://t.me/moviehub4u_06')
                     ],[
-                        InlineKeyboardButton('🏕️ ᴀʙᴏᴜᴛ', callback_data='about'),
-                        InlineKeyboardButton('🍾 ᴄᴏᴍᴍᴀɴᴅꜱ', callback_data='seeplans'),
-                        InlineKeyboardButton('🍁 ꜱᴛᴀᴛꜱ', callback_data='stats')
+                        InlineKeyboardButton('🙋 ᴀʙᴏᴜᴛ 🙋', callback_data='about'),
+                        InlineKeyboardButton('🤖 ᴄᴏᴍᴍᴀɴᴅꜱ.🤖', callback_data='seeplans'),
+                        InlineKeyboardButton('🥱 ꜱᴛᴀᴛꜱ 🥱', callback_data='stats')
                     ],[
-                        InlineKeyboardButton('🌹 ʀᴇғғᴇʀ 🌹', callback_data='reffer'),
+                        InlineKeyboardButton('❤️‍🔥 ʀᴇғғᴇʀ ❤️‍🔥', callback_data='reffer'),
                         ]]
             if IS_VERIFY or IS_SHORTLINK is True:
                 buttons.append([
-                    InlineKeyboardButton('🏡 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 🏡', callback_data='seeplans')
+                    InlineKeyboardButton('🌟 ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ 🌟', callback_data='seeplans')
                 ])
             if TOP_SEARCH is True:
                 buttons.append([
-                    InlineKeyboardButton("🎁 ᴍᴏᴠɪᴇ sᴜɢɢᴇsᴛɪᴏɴ's 🎁", callback_data='movie_suggestion')
+                    InlineKeyboardButton("🔥 ᴍᴏᴠɪᴇ sᴜɢɢᴇsᴛɪᴏɴ's 🔥", callback_data='movie_suggestion')
                 ])
             reply_markup = InlineKeyboardMarkup(buttons)
             current_time = datetime.now(pytz.timezone(TIMEZONE))
@@ -403,7 +403,7 @@ async def start(client, message):
 
         if data.startswith("TheHappyHour"):
             btn = [[
-                InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/Master_Jiraya_Bot")
+                InlineKeyboardButton('📸 sᴇɴᴅ sᴄʀᴇᴇɴsʜᴏᴛ 📸', url="https://t.me/dvl_naruto_06")
             ],[
                 InlineKeyboardButton('☘️ ꜰᴜᴛᴜʀᴇ ☘️', url="https://graph.org/The-Happy-Hour-12-22-2"),
                 InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
