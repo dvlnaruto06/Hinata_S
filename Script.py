@@ -95,19 +95,20 @@ BOT {}"""
     CUDNT_FND = """Select True Name...✅"""
 
     I_CUDNT = """<b><blockquote>Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ :
-
+メ Movie Search karne ka format galat hai 🫠
 › ᴀᴠᴀᴛᴀʀ ✅
 › ᴀᴠᴀᴛᴀʀ 2009 ✅
-› ᴀᴠᴀᴛᴀʀ ᴍᴏᴠɪᴇ ❌
-› ᴀᴠᴀᴛᴀʀ ʜɪɴᴅɪ ᴅᴜʙʙᴇᴅ..❌
+› ᴀᴠᴀᴛᴀʀ ʜɪɴᴅɪ ✅
 
-Sᴇᴀʀᴄʜ Wᴇʙ Sᴇʀɪᴇs Iɴ ᴛʜɪs Fᴏʀᴍᴀᴛᴇ : 
-
+メ Wᴇʙ Sᴇʀɪᴇs karne ka format galat hai 🫠
 › ᴠɪᴋɪɴɢs S01 ✅
 › ᴠɪᴋɪɴɢs S01E01 ✅
-› ᴠɪᴋɪɴɢs S01 ʜɪɴᴅɪ ᴅᴜʙʙ. ❌
-› ᴠɪᴋɪɴɢs sᴇᴀsᴏɴ 1 ❌
-› ᴠɪᴋɪɴɢs ᴡᴇʙ sᴇʀɪᴇs ❌
+› ᴠɪᴋɪɴɢs S01 ʜɪɴᴅɪ ✅
+
+★ Important ★ #not found
+› Sayad aapne galat name likha ❌
+› Google par jakar search kijiye sahi spelling 🤧
+› Mujhe sahi spelling dena mai tab de paungi ☺️
 
 🔹 ᴅᴏɴ'ᴛ sᴇɴᴅ ᴀɴʏ ᴋɪɴᴅ ᴏғ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ ᴅᴏᴄᴜᴍᴇɴᴛs, ᴜʀʟ ᴇᴛᴄ...</blockquote></b>"""
 
