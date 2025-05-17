@@ -94,8 +94,7 @@ BOT {}"""
 
     CUDNT_FND = """Select True Name...✅"""
 
-    I_CUDNT = """<b><blockquote>Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ :
-メ Movie Search karne ka format galat hai 🫠
+    I_CUDNT = """<b><blockquote>メ Movie Search karne ka format galat hai 🫠
 › ᴀᴠᴀᴛᴀʀ ✅
 › ᴀᴠᴀᴛᴀʀ 2009 ✅
 › ᴀᴠᴀᴛᴀʀ ʜɪɴᴅɪ ✅
