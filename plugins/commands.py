@@ -114,7 +114,8 @@ async def start(client, message):
             #     return
             btn = [[
                 InlineKeyboardButton("Cʜᴀɴɴᴇʟ 1", url=f't.me/moviehub4u_update'),
-                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 2", url=f't.me/moviehub4u_06')
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 2", url=f't.me/moviehub4u_06'),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 3", url=f'https://t.me/+Z2lvJ3Je7OM5MjI1')
               ]]
     
             if message.command[1] != "subscribe":
@@ -286,7 +287,7 @@ async def start(client, message):
                              [
                               InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"streaming#{file_id}")
                            ],[
-                            InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/Hidden_Technology_Bot?start=reffer'),
+                            InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/dvl_naruto_06'),
                             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
                         ]
                              ]
@@ -306,7 +307,7 @@ async def start(client, message):
                               InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"streaming#{file_id}")
                               
                            ],[
-                              InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/Hidden_Technology_Bot?start=reffer'),
+                              InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/dvl_naruto_06'),
                             InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
                              ]
                             ]
@@ -499,7 +500,7 @@ async def start(client, message):
                     protect_content=True if pre == 'filep' else False,
                     reply_markup=InlineKeyboardMarkup([[
                           InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ / ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"streaming#{file_id}")],
-                          [InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/Hidden_Technology_Bot?start=reffer')]]))
+                          [InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/dvl_naruto_06')]]))
                 return 
         elif data.startswith("all"):
             files = temp.GETALL.get(file_id)
@@ -526,7 +527,7 @@ async def start(client, message):
                             InlineKeyboardButton("♻️ Vᴇʀɪғʏ ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                             InlineKeyboardButton("⚠️ Hᴏᴡ Tᴏ Vᴇʀɪғʏ ⚠️", url=HOW_TO_VERIFY)
                             ],[
-                            InlineKeyboardButton("🏕️ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ 🏕️", url="https://t.me/Hidden_Technology_Bot?start=TheHappyHour")
+                            InlineKeyboardButton("🏕️ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ 🏕️", url="https://t.me/dvl_naruto_06")
                             ]]
                     await message.reply_text(
                         text="You Are Not Verifid Today...",
@@ -544,7 +545,7 @@ async def start(client, message):
                          [
                           InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ / ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"streaming#{file_id}")
                        ],[
-                              InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/Hidden_Technology_Bot?start=reffer')       
+                              InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/dvl_naruto_06')       
                              ]
                         ]
                     )
@@ -567,7 +568,7 @@ async def start(client, message):
                         InlineKeyboardButton("♻️ Vᴇʀɪғʏ ♻️", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=", file_id)),
                         InlineKeyboardButton("⚠️ Hᴏᴡ Tᴏ Vᴇʀɪғʏ ⚠️", url=HOW_TO_VERIFY)
                         ],[
-                        InlineKeyboardButton("🏕️ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ 🏕️", url="https://t.me/Hidden_Technology_Bot?start=TheHappyHour")
+                        InlineKeyboardButton("🏕️ ʀᴇᴍᴏᴠᴇ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ 🏕️", url="https://t.me/dvl_naruto_06")
                     ]]
                     await message.reply_text(
                         text="You Are Not Verified Today...Plzz Verifiy And Get Movie...",
@@ -585,7 +586,7 @@ async def start(client, message):
                           InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"streaming#{file_id}")
                   
                        ],[
-                              InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/Hidden_Technology_Bot?start=reffer'),
+                              InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/dvl_naruto_06'),
                              InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
                              ]
                         ]
@@ -647,7 +648,7 @@ async def start(client, message):
                  [
                  InlineKeyboardButton("🖥️ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ 📥", callback_data=f"streaming#{file_id}")  
                  ],[
-                 InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/Hidden_Technology_Bot?start=reffer'),
+                 InlineKeyboardButton("🌹 ʀᴇғғᴇʀ 🌹", url='https://t.me/dvl_naruto_06'),
                  InlineKeyboardButton('❌ ᴄʟᴏꜱᴇ ❌', callback_data='close_data')
                  ]
                 ]
